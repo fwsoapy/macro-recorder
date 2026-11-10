@@ -1,0 +1,26 @@
+<!doctype html>
+<!-- Source for assets/social-preview.png, the GitHub link-preview image (1280x640).
+     Rebuild: chrome --headless --screenshot=assets/social-preview.png --window-size=1280,640 assets/social-preview.html -->
+<html><head><meta charset="utf-8"><style>
+  * { box-sizing: border-box; margin: 0; }
+  body { width: 1280px; height: 640px; overflow: hidden; font-family: "Segoe UI", system-ui, sans-serif; color: #e8eaee;
+    background: radial-gradient(800px 500px at 100% 0%, rgba(70,194,138,0.20), transparent 60%),
+                radial-gradient(700px 520px at 0% 100%, rgba(242,102,107,0.22), transparent 60%), #0f1115;
+    padding: 70px 0 0 72px; position: relative; }
+  .name { display: flex; align-items: center; gap: 16px; font-size: 30px; font-weight: 700; }
+  .name img { width: 64px; height: 64px; }
+  h1 { font-size: 60px; line-height: 1.05; letter-spacing: -2px; margin: 40px 0 20px; width: 520px; font-weight: 800; }
+  h1 em { font-style: normal; color: #46c28a; }
+  p { font-size: 23px; line-height: 1.45; color: #a4abb8; width: 480px; }
+  .pills { display: flex; gap: 10px; margin-top: 30px; }
+  .pill { font-size: 17px; font-weight: 600; padding: 8px 15px; border-radius: 999px; background: rgba(255,255,255,0.07);
+          border: 1px solid rgba(255,255,255,0.12); }
+  .shot { position: absolute; left: 640px; top: 96px; width: 760px; border-radius: 14px; border: 1px solid #454b58;
+          box-shadow: 0 30px 80px rgba(0,0,0,0.6); }
+</style></head><body>
+  <div class="name"><img src="icon.png" alt="">Macro Recorder</div>
+  <h1>Record it once. <em>Play it forever.</em></h1>
+  <p>A free keyboard and mouse macro recorder for Windows, with a step editor and one-click install.</p>
+  <div class="pills"><span class="pill">Free</span><span class="pill">Open source</span><span class="pill">No account</span></div>
+  <img class="shot" src="screenshot.png" alt="">
+</body></html>

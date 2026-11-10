@@ -1,0 +1,15 @@
+# Build output
+build/
+dist/
+release/
+__pycache__/
+*.pyc
+*.spec
+
+# Local settings and personal macros
+config.json
+*.json
+!tests/**/*.json
+
+# Local tooling
+.claude/
